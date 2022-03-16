@@ -40,11 +40,7 @@
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
-      <v-main>
-      <h2>Brasileirão Série 2</h2>
-      <v-img ></v-img>
-      <p>A Série A do Campeonato Brasileiro de Futebol de 2020, oficialmente Brasileirão Assaí - Série A 2020 por motivos de patrocínio, é a 64.ª edição da principal divisão do futebol brasileiro. A disputa tem o mesmo regulamento dos anos anteriores, quando foi implementado o sistema de pontos corridos.</p>
-    </v-main>
+
     </v-app>
   </div>
   
@@ -63,3 +59,21 @@ export default {
   }
 }
 </script>
+<style scoped>
+.title-home {
+  font-size: 40px;
+  padding: 10px;
+  text-align: center;
+}
+.home-image{
+  border-radius: 1%;
+  max-width: 70%;
+}
+
+.text-home{
+  font-size: 20px;
+  text-align: justify;
+  padding: 50px;
+}
+
+</style>
