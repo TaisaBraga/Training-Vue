@@ -2,21 +2,21 @@
   <div id="App">
     <v-app>
       <AppTopBar/>
-      <HomePage/>
+      <v-main>
+        <router-view/>
+      </v-main>
     </v-app>
   </div>
 </template>
 
 <script>
 
-import HomePage from './components/HomePage.vue'
 import AppTopBar from './components/shared/VueAppTopBar.vue'
 
 export default {
   name: 'App',
 
   components: {
-    HomePage,
     AppTopBar,
   },
 
