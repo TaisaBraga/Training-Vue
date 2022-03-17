@@ -3,21 +3,28 @@
     <template v-slot:default>
       <thead>
         <tr>
-          <th class="text-left">
+          <th colspan="2" class="text-left">
             Clube
           </th>
-          <th class="text-left">
+          <th class="text-right">
             Pontos
           </th>
         </tr>
       </thead>
       <tbody>
-        <tr
-          v-for="item in classification"
-          :key="item.clube"
-        >
-          <td>{{ item.clube }}</td>
-          <td>{{ item.pontos }}</td>
+        <tr v-for="(club, index) of ClubsList" :key="club.id"> 
+          <td>{{ index+1 }}</td>       
+          <td>
+            <v-avatar size="24">
+              <img
+                :src="club.escudo"
+                :alt="club.nome"
+              >
+            </v-avatar>
+            <span  class="pl-2">{{ club.nome}}</span>
+          </td>
+          <td>{{ club.pontos}}</td>
+
         </tr>
       </tbody>
     </template>

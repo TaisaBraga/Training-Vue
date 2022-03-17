@@ -19,7 +19,6 @@ export default {
 <style scoped>
 .title-home {
   font-size: 40px;
-  margin-top: 8vh;
   text-align: center;
 }
 

@@ -12,8 +12,8 @@ const routes = [
     component: HomePage
   },
   {
-    path: '/',
-    name: 'classification',
+    path: '/classificacao',
+    name: 'ClubsList',
     component: ClubsList
   }
 ]
