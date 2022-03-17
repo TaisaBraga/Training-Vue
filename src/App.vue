@@ -24,5 +24,8 @@ export default {
 </script>
 
 <style scoped>
-
+.link-home {
+  color: white;
+  text-decoration: none;
+}
 </style>

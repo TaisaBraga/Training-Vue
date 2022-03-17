@@ -1,30 +1,27 @@
 <template>
   <v-container>
     <h2 class="text-h5 text-center mb-3 mt-5">Classificação</h2>
-    <TableList :clubs='orderedClubs'/>
+    <TableList />
   </v-container>
 </template>
 
 <script>
-// import TableList from '../components/TableList'
+import TableList from '../components/TableList'
 
 export default {
   name: 'ClubsList',
 
-  data(){
-    return {
-      clubsList: []
-    }
+  components: {
+    TableList,
   },
-created(){
-    fetch('https://hackthon-decola.firebaseio.com/clubes-lista.json')
-      .then(response => response.json())
-      .then(json => {
-      this.clubsList = json
-      console.log(this.clubsList)
-    })
-    
-  }
+
+  // computed:{
+  //   orderedListClubs(){
+  //     const orderedClubs = this.clubsList.slice(0).short((a, b) => a.pontos > b.pontos ? -1 : 1
+  //     );
+  //     return orderedClubs
+  //   }
+  // },
 }
 </script>
 
