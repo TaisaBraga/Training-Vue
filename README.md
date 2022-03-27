@@ -2,14 +2,14 @@
 
 
 
-<img src='/images/first-image.jpg'/>
+<img src='images/first-image.png'/>
 
 
 
-<img src='/images/menu-image.jpg'/>
+<img src='images/menu-image.png'/>
 
 
 
-<img src='/images/second-page.jpg'/>
+<img src='images/second-page.png'/>
 
 
