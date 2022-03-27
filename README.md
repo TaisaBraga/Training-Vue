@@ -1,24 +1,15 @@
-# project-brazilian-championship
+# Project Brazilian Championship - VUE
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+<img src='/images/first-image.jpg'/>
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+<img src='/images/menu-image.jpg'/>
+
+
+
+<img src='/images/second-page.jpg'/>
+
+

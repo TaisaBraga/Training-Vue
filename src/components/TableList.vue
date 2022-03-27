@@ -59,6 +59,5 @@ export default {
       return sortList;
     }
   }
-
 }
 </script>
